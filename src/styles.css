@@ -1,0 +1,67 @@
+:root {
+  font-family: "Poppins", "Segoe UI", sans-serif;
+  color: #111827;
+  color-scheme: light;
+  --page-bg: #f6f7fb;
+  --page-text: #111827;
+  --page-surface: #ffffff;
+  --page-border: #e5e7eb;
+  --ink: #111827;
+  --paper: #ffffff;
+  --brand-primary: #111827;
+  --brand-secondary: #f97316;
+  --brand-success: #0f766e;
+  --brand-info: #2563eb;
+  --brand-warning: #d97706;
+  --brand-error: #ef4444;
+  --brand-contrast: #0f172a;
+  --brand-contrast-soft: #e2e8f0;
+  --brand-violet: #8b5cf6;
+  --brand-rose: #fb7185;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  color: #ffffff;
+  --page-bg: #0b1020;
+  --page-text: #ffffff;
+  --page-surface: #141a2e;
+  --page-border: #27324a;
+  --ink: #ffffff;
+  --paper: #0b1020;
+  --brand-primary: #f8fafc;
+  --brand-secondary: #fb923c;
+  --brand-success: #2dd4bf;
+  --brand-info: #60a5fa;
+  --brand-warning: #fbbf24;
+  --brand-error: #f87171;
+  --brand-contrast: #f8fafc;
+  --brand-contrast-soft: #1f2a44;
+  --brand-violet: #a78bfa;
+  --brand-rose: #fb7185;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  color: var(--page-text);
+  background:
+    radial-gradient(circle at top left, color-mix(in srgb, var(--brand-secondary) 14%, transparent), transparent 30%),
+    radial-gradient(circle at top right, color-mix(in srgb, var(--brand-info) 12%, transparent), transparent 28%),
+    radial-gradient(circle at bottom left, color-mix(in srgb, var(--brand-success) 10%, transparent), transparent 24%),
+    var(--page-bg);
+  background-attachment: fixed;
+}
+
+a {
+  color: inherit;
+}

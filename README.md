@@ -151,7 +151,6 @@ On Windows PowerShell, if the `npm` shim is blocked by execution policy, use the
 - GitHub Actions runs backend and frontend tests on every push to `main` and on pull requests.
 - The workflow uses Node.js 20 and `npm ci` for repeatable installs.
 
-=======
 - Frontend: `http://localhost:5173`
 - Backend: `http://localhost:5000`
 

@@ -81,9 +81,6 @@ Full-stack flash sale commerce app with in-memory + optional JSON file storage.
 - `PUT /api/orders/:orderId/return`
 - `PUT /api/orders/:orderId/status` (Admin)
 
-### Extra
-
-
 ## Realtime Events (Socket.IO)
 - `server:time` (timer sync)
 - `stock:update`

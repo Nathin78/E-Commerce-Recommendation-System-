@@ -87,9 +87,7 @@ Full-stack flash sale commerce app with in-memory + optional JSON file storage.
 - `GET /api/users/profile` / `PUT /api/users/profile` (Auth)
 - `GET /api/users/addresses` / `POST /api/users/addresses` / `PUT /api/users/addresses/:addressId` / `PUT /api/users/addresses/:addressId/default` / `DELETE /api/users/addresses/:addressId` (Auth)
 - `GET /api/users/wishlist` / `POST /api/users/wishlist` / `DELETE /api/users/wishlist/:productId`
-- `GET /api/admin/users` (Admin)
-- `GET /api/admin/orders` (Admin)
-- `GET /api/admin/coupons` / `POST /api/admin/coupons` / `PUT /api/admin/coupons/:code` (Admin)
+
 
 ## Realtime Events (Socket.IO)
 - `server:time` (timer sync)
